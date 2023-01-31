@@ -1,0 +1,28 @@
+{
+    "name": "perchpeek/clickup-socialite",
+    "description": "Socialite Provider for ClickUp OAuth",
+    "license": "MIT",
+    "keywords": [
+        "clickup",
+        "laravel",
+        "oauth",
+        "provider",
+        "socialite"
+    ],
+    "authors": [
+        {
+            "name": "Angus Allman",
+            "email": "angus.allman@perchpeek.com"
+        }
+    ],
+     "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "~4.0"
+    },
+     "autoload": {
+        "psr-4": {
+            "PerchPeek\\ClickUp\\": ""
+        }
+    }
+}
